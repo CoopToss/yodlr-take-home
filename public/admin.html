@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset=utf-8>
+  <meta charset="utf-8">
   <title>Yodlr Admin Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
-<body>
-  List user data here
+<body class="container mt-5">
+  <h1>Yodlr Admin Page</h1>
+  <table class="table table-striped" id="usersTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>State</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- User data will be inserted here -->
+    </tbody>
+  </table>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="admin.js"></script>
 </body>
 </html>
+
